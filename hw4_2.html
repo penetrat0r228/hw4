@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            overflow:hidden;
+        }
+        main{
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            background-color: white;
+            height: 100vh;
+            width: 50vw;
+        }
+        .box1{
+            height: 80vh;
+            border: 2px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #username{
+            width: 600px;
+            height: 75px;
+            font-size: 30px;
+            border-radius: 5px;
+            border-color: #a49b9b;
+            margin-bottom: 20px;
+            text-overflow: ellipsis;
+        }
+        #password{
+            width: 600px;
+            height: 75px;
+            font-size: 30px;
+            border-radius: 5px;
+            border-color: #a49b9b;
+            margin-bottom: 10px;
+        }
+        .login{
+            width: 600px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: dodgerblue;
+            border-radius: 10px;
+            font-size: 35px;
+        }
+        .facebook{
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 200px;
+            color: darkblue;
+            margin: 0;
+        }
+        .box2{
+            height: 15vh;
+            border: 2px solid grey;
+            margin-top: 20px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            font-size: 45px;
+
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <div>
+            <div class="box1">
+                <img src="inst.png" alt="" style="margin-top: 20px">
+                <div class="input">
+                <input type="username" name="username" id="username" placeholder="Номер телефону, ім'я користувача або електронна пошта">
+                    <input type="password" name="password" id="password" placeholder="Пароль">
+
+                </div>
+                <div class="login">
+                    <p>Увійти</p>
+                </div>
+                <p style="margin-top: 70px "><b>АБО</b></p>
+                <div class="facebook">
+                <p> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcUlEQVR4nO2avXITQQyAz8MwwxMAFYlkWgoIZcq8A38NDQ9gwkCJy1g6kxQ0tCQ2M+E9eAJ6Ck5K0qSIaWGZvaQwOd/enW/vjznNbGmtvpVWklcXBL10RYwZDEPdglBeAOsIWd75XMA6srqHE3lk9/Jm9wad3QXSA2QVZDU1LQHWfTg4vVPqxJHkLZL8qtFws7yAZLFJ+qawRzbe/7gFpF+aMhwTIDq3NuU/edZZ00bj9UXyNZcn4rBp2lhO8QTrrtt4PrkNLBdNG4qpoSQLm1RSAa6yTVUGnNswQJYpkO6lLWQ5RJI/jlD64Ip976kSSM42SV5tfTI3sy/gpSDpUbo+jVbeBZzoY/8xK99xT+4FBQVYxi69cbFLAJA8933y6xifBwA5ehpcF1swfALYsAnWFMgAWJmNsqmLXdgiMV8cQMaFf1S46JQQaAFAWAYAHVmoFoCVGywbOD19kN5a68xZB9oAUHYv6AG498C4RSEkv20D9m9TFu047wBFO46Gbl7zJZbDwLNgxh8qrwBZGWc9APnYaQBg/dZdgGNzI+slpNUAGFfpGrOQdwA6eVkrgO8shCSf6wWwOTvuHpcaslC2nUaGsr2ykSM9yqoBFXigeFj1zRz/nx7Q3c4AkL5OKMVQnnUFYDiJniSU2ulLVwDuh9HDpFZjBsD6s+0AkPa0eKlY99sOgCzTyp/XqwIAkkXm3MzHE2NlAKyjoI4RUzUAcpx72Hc15Ju3CGCWf8i35Alb3GzcNQUALBdx2JQZfNtLY8c6Nn3VBQBxOpepTSqBNzFmYAuIrdjxZwGOOddazyqsI6s7LlI+PzXoJahW/gISZfP+ZOqs6QAAAABJRU5ErkJggg==" style="margin-bottom: -10px">
+                <b>Увійти через Facebook</b></p>
+                    <p>Забули пароль?</p>
+                </div>
+            </div>
+            <div class="box2">
+                <p>Не маєте облікового запису?</p><p style="color: blue">Зареєструйтеся</p>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

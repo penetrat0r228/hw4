@@ -1,0 +1,101 @@
+.koho-regular {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    font-family: KoHo;
+}
+.page1{
+    height: 100vh;
+    background-image: url(image4.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 1058px;
+    height: 392px;
+    background-color: grey;
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text{
+    width: 529px;
+    height: 392px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+div h1{
+    margin: 0;
+}
+button{
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+.page2{
+    height: 100vh;
+    background-image: url(Rectangle4.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+.page3{
+    height: 100vh;
+    background-image: url(Rectangle4.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box1{
+    font-size: 30px;
+    width: 450px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box2{
+    font-size: 30px;
+    width: 450px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box3{
+    font-size: 30px;
+    width: 450px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+{
+
+}
+
